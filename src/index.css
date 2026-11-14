@@ -1,0 +1,170 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/cairo/index.css';
+@import '@fontsource-variable/space-grotesk/index.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/600.css';
+
+@theme inline {
+  --font-arabic: 'Cairo Variable', 'Cairo', 'Segoe UI', sans-serif;
+  --font-latin: 'Space Grotesk Variable', 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', monospace;
+
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-line: var(--c-line);
+  --color-fg: var(--c-fg);
+  --color-muted: var(--c-muted);
+  --color-primary: var(--c-primary);
+  --color-primary-strong: var(--c-primary-strong);
+  --color-primary-fg: var(--c-primary-fg);
+  --color-primary-soft: var(--c-primary-soft);
+  --color-accent: var(--c-accent);
+  --color-accent-soft: var(--c-accent-soft);
+  --color-success: var(--c-success);
+  --color-success-soft: var(--c-success-soft);
+  --color-danger: var(--c-danger);
+  --color-danger-soft: var(--c-danger-soft);
+  --color-warning: var(--c-warning);
+  --color-warning-soft: var(--c-warning-soft);
+  --color-info: var(--c-info);
+  --color-info-soft: var(--c-info-soft);
+  --color-ring: var(--c-ring);
+}
+
+:root {
+  --app-font-size: 16px;
+  color-scheme: dark;
+
+  --c-bg: #0a1120;
+  --c-surface: #101a2e;
+  --c-surface-2: #16233c;
+  --c-line: #24334f;
+  --c-fg: #e8eefc;
+  --c-muted: #9db0d0;
+
+  --c-primary: #2dd4bf;
+  --c-primary-strong: #14b8a6;
+  --c-primary-fg: #04211d;
+  --c-primary-soft: rgba(45, 212, 191, 0.14);
+
+  --c-accent: #f59e0b;
+  --c-accent-soft: rgba(245, 158, 11, 0.14);
+
+  --c-success: #34d399;
+  --c-success-soft: rgba(52, 211, 153, 0.14);
+  --c-danger: #f87171;
+  --c-danger-soft: rgba(248, 113, 113, 0.14);
+  --c-warning: #fbbf24;
+  --c-warning-soft: rgba(251, 191, 36, 0.14);
+  --c-info: #60a5fa;
+  --c-info-soft: rgba(96, 165, 250, 0.14);
+
+  --c-ring: #2dd4bf;
+  --c-shadow: rgba(2, 8, 20, 0.55);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+
+  --c-bg: #f2f6fb;
+  --c-surface: #ffffff;
+  --c-surface-2: #eaf0f8;
+  --c-line: #d3deec;
+  --c-fg: #101f3a;
+  --c-muted: #4f617f;
+
+  --c-primary: #0d9488;
+  --c-primary-strong: #0f766e;
+  --c-primary-fg: #ffffff;
+  --c-primary-soft: rgba(13, 148, 136, 0.12);
+
+  --c-accent: #b45309;
+  --c-accent-soft: rgba(180, 83, 9, 0.12);
+
+  --c-success: #047857;
+  --c-success-soft: rgba(4, 120, 87, 0.12);
+  --c-danger: #b91c1c;
+  --c-danger-soft: rgba(185, 28, 28, 0.1);
+  --c-warning: #92400e;
+  --c-warning-soft: rgba(146, 64, 14, 0.12);
+  --c-info: #1d4ed8;
+  --c-info-soft: rgba(29, 78, 216, 0.1);
+
+  --c-ring: #0d9488;
+  --c-shadow: rgba(16, 31, 58, 0.12);
+}
+
+html {
+  font-size: var(--app-font-size);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background-color: var(--c-bg);
+  color: var(--c-fg);
+  font-family: var(--font-arabic);
+  line-height: 1.85;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.latin {
+  font-family: var(--font-latin);
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+:focus-visible {
+  outline: 2px solid var(--c-ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background-color: var(--c-primary-soft);
+  color: var(--c-fg);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-line) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--c-line);
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

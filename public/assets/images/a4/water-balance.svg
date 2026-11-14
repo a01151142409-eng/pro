@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Cairo, sans-serif">
+  <rect width="640" height="430" fill="#f8fafc"/>
+  <text x="320" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Daily Water Balance — اتزان الماء اليومي (2300 ml/day)</text>
+  <text x="160" y="70" text-anchor="middle" font-size="17" font-weight="700" fill="#0e7490">Intake — المدخول</text>
+  <text x="480" y="70" text-anchor="middle" font-size="17" font-weight="700" fill="#b91c1c">Output — المخرج</text>
+  <rect x="40" y="90" width="240" height="44" rx="10" fill="#cffafe" stroke="#0e7490"/>
+  <text x="160" y="118" text-anchor="middle" font-size="14" fill="#155e75">Ingested water — شراب: 2100 ml</text>
+  <rect x="40" y="150" width="240" height="44" rx="10" fill="#cffafe" stroke="#0e7490"/>
+  <text x="160" y="178" text-anchor="middle" font-size="14" fill="#155e75">Metabolic water — أيضي: 200 ml</text>
+  <rect x="40" y="215" width="240" height="50" rx="10" fill="#a5f3fc" stroke="#0e7490" stroke-width="2"/>
+  <text x="160" y="246" text-anchor="middle" font-size="15" font-weight="700" fill="#155e75">Total = 2300 ml/day</text>
+  <rect x="360" y="82" width="240" height="38" rx="10" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="480" y="107" text-anchor="middle" font-size="13" fill="#7f1d1d">Insensible skin — جلد: 350</text>
+  <rect x="360" y="126" width="240" height="38" rx="10" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="480" y="151" text-anchor="middle" font-size="13" fill="#7f1d1d">Lungs — رئتان: 350</text>
+  <rect x="360" y="170" width="240" height="38" rx="10" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="480" y="195" text-anchor="middle" font-size="13" fill="#7f1d1d">Sweat — عرق: 100</text>
+  <rect x="360" y="214" width="240" height="38" rx="10" fill="#fee2e2" stroke="#b91c1c"/>
+  <text x="480" y="239" text-anchor="middle" font-size="13" fill="#7f1d1d">Feces — براز: 100</text>
+  <rect x="360" y="258" width="240" height="44" rx="10" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+  <text x="480" y="286" text-anchor="middle" font-size="14" font-weight="700" fill="#7f1d1d">Urine — بول: 1400 ★</text>
+  <rect x="360" y="308" width="240" height="44" rx="10" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="480" y="336" text-anchor="middle" font-size="14" font-weight="700" fill="#7f1d1d">Total = 2300 ml/day</text>
+  <text x="320" y="390" text-anchor="middle" font-size="14" font-weight="700" fill="#0f172a">Regulated: thirst (in) + urine (out) — فقط العطش والبول منظمان</text>
+  <text x="320" y="412" text-anchor="middle" font-size="13" fill="#334155">Urine output is the most important mechanism — إخراج البول هو الآلية الأهم</text>
+</svg>

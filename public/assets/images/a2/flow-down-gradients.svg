@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Cairo, sans-serif">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="320" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Flow Down Gradients — الجريان مع الانحدار (من الأعلى للأقل)</text>
+  <g font-size="14" fill="#0f172a">
+    <rect x="40" y="60" width="560" height="52" rx="10" fill="#cffafe" stroke="#0e7490"/>
+    <text x="60" y="92" font-weight="700">Concentration — تركيز:</text><text x="330" y="92">Glucose → enterocytes (high → low)</text>
+    <rect x="40" y="122" width="560" height="52" rx="10" fill="#dcfce7" stroke="#15803d"/>
+    <text x="60" y="154" font-weight="700">Pressure — ضغط:</text><text x="330" y="154">Blood: arteries → veins</text>
+    <rect x="40" y="184" width="560" height="52" rx="10" fill="#fef9c3" stroke="#a16207"/>
+    <text x="60" y="216" font-weight="700">Gas partial pressure — ضغط جزئي:</text><text x="330" y="216">O₂: alveoli (≈100 mmHg) → blood (≈40)</text>
+    <rect x="40" y="246" width="560" height="52" rx="10" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="60" y="278" font-weight="700">Electrical — كهربائي:</text><text x="330" y="278">Na⁺ into negative neuron (depolarization)</text>
+    <rect x="40" y="308" width="560" height="52" rx="10" fill="#fce7f3" stroke="#be185d"/>
+    <text x="60" y="340" font-weight="700">Temperature — حراري:</text><text x="330" y="340">Heat: body core → skin surface</text>
+  </g>
+  <text x="320" y="395" text-anchor="middle" font-size="14" font-weight="700" fill="#0e7490">Passive process — لا يحتاج ATP — حتى الوصول للاتزان (equilibrium)</text>
+</svg>
