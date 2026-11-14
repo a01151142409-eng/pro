@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Cairo, sans-serif">
+  <rect width="640" height="300" fill="#f8fafc"/>
+  <text x="320" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Homeostatic Mechanisms — أنواع آليات الاتزان الداخلي</text>
+  <rect x="40" y="70" width="180" height="150" rx="12" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#14532d">Negative feedback</text>
+  <text x="130" y="124" text-anchor="middle" font-size="13" fill="#14532d">Response cancels change</text>
+  <text x="130" y="146" text-anchor="middle" font-size="13" fill="#14532d">الاستجابة تُلغي التغيّر</text>
+  <text x="130" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">Most common — الأكثر شيوعًا</text>
+  <rect x="230" y="70" width="180" height="150" rx="12" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="320" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#7f1d1d">Positive feedback</text>
+  <text x="320" y="124" text-anchor="middle" font-size="13" fill="#7f1d1d">Response amplifies change</text>
+  <text x="320" y="146" text-anchor="middle" font-size="13" fill="#7f1d1d">الاستجابة تُضخّم التغيّر</text>
+  <text x="320" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Rare — نادر</text>
+  <rect x="420" y="70" width="180" height="150" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="510" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#1e3a8a">Feedforward</text>
+  <text x="510" y="124" text-anchor="middle" font-size="13" fill="#1e3a8a">Response anticipates change</text>
+  <text x="510" y="146" text-anchor="middle" font-size="13" fill="#1e3a8a">الاستجابة تتوقع التغيّر</text>
+  <text x="510" y="176" text-anchor="middle" font-size="13" fill="#1e3a8a">e.g., exercise, circadian</text>
+  <text x="320" y="265" text-anchor="middle" font-size="14" fill="#334155">Goal: keeping the internal environment constant for optimal cell function</text>
+</svg>

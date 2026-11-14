@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Cairo, sans-serif">
+  <rect width="640" height="430" fill="#f8fafc"/>
+  <text x="320" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Reflex Arc — قوس المنعكس</text>
+  <rect x="15" y="170" width="110" height="100" rx="12" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="70" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#14532d">Receptor</text>
+  <text x="70" y="234" text-anchor="middle" font-size="13" fill="#14532d">المستقبل</text>
+  <rect x="140" y="170" width="110" height="100" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="195" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">Afferent</text>
+  <text x="195" y="228" text-anchor="middle" font-size="13" fill="#1e40af">المسار الوارد</text>
+  <rect x="265" y="170" width="110" height="100" rx="12" fill="#fef9c3" stroke="#a16207" stroke-width="2"/>
+  <text x="320" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#713f12">Control</text>
+  <text x="320" y="228" text-anchor="middle" font-size="13" fill="#713f12">مركز التحكم</text>
+  <rect x="390" y="170" width="110" height="100" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="445" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">Efferent</text>
+  <text x="445" y="228" text-anchor="middle" font-size="13" fill="#1e40af">المسار الصادر</text>
+  <rect x="515" y="170" width="110" height="100" rx="12" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+  <text x="570" y="212" text-anchor="middle" font-size="14" font-weight="700" fill="#831843">Effector</text>
+  <text x="570" y="234" text-anchor="middle" font-size="13" fill="#831843">المستجيب</text>
+  <line x1="128" y1="220" x2="138" y2="220" stroke="#475569" stroke-width="3" marker-end="url(#a)"/>
+  <line x1="253" y1="220" x2="263" y2="220" stroke="#475569" stroke-width="3"/>
+  <line x1="378" y1="220" x2="388" y2="220" stroke="#475569" stroke-width="3"/>
+  <line x1="503" y1="220" x2="513" y2="220" stroke="#475569" stroke-width="3"/>
+  <text x="70" y="140" text-anchor="middle" font-size="13" fill="#334155">Stimulus — المنبه</text>
+  <line x1="70" y1="150" x2="70" y2="168" stroke="#334155" stroke-width="2"/>
+  <text x="570" y="320" text-anchor="middle" font-size="13" fill="#334155">Response — الاستجابة</text>
+  <line x1="570" y1="272" x2="570" y2="305" stroke="#334155" stroke-width="2"/>
+  <text x="320" y="395" text-anchor="middle" font-size="14" fill="#334155">اضغط على النقاط لاستكشاف مكونات القوس — Tap the pins to explore the arc</text>
+</svg>
